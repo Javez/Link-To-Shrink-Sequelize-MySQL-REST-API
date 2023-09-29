@@ -2,21 +2,24 @@
 Published backend API app to reduce the length of links provided by user
 
 **Common API usage:**
+```
 *Take short view of link by pushing original version*
-METHOD [POST] localhost:3000/shrinkUrl
-BODY x-www-urlencoded
-KEY url VALUE https://kinsta.com/blog/docker-compose-volumes/
-
+- METHOD [POST] localhost:3000/shrinkUrl
+- BODY x-www-urlencoded
+- KEY url VALUE https://kinsta.com/blog/docker-compose-volumes/
+```
+```
 *Take short view of link by pushing original version*
-METHOD [GET] localhost:3000/getLinkByUrl
-PARAMS
-KEY "url" VALUE "your-link"
-
+- METHOD [GET] localhost:3000/getLinkByUrl
+- PARAMS
+- KEY "url" VALUE "your-link"
+```
+```
 *Take original view of link by pushing reduced version*
-METHOD [GET] localhost:3000/getLinkByShortUrl
-PARAMS
-KEY "shortUrl" VALUE "your-short-link"
-
+- METHOD [GET] localhost:3000/getLinkByShortUrl
+- PARAMS
+- KEY "shortUrl" VALUE "your-short-link"
+```
 ```
 Used:
 - TS, JS
