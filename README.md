@@ -28,3 +28,4 @@ Used:
 ```
 Example
 ![LinkToShrink](https://github.com/Javez/LinkToShrink/assets/66317972/cf2b854d-c713-47f6-a953-daa3eda06fff)
+![изображение](https://github.com/Javez/LinkToShrink/assets/66317972/df0e9fc7-0330-4087-8ae2-4f79bdef0c1f)
