@@ -24,7 +24,7 @@ Published backend API app to reduce the length of links provided by user
 Used:
 - TS, JS
 - Node.js, Express.js
-- Sequelize, Redis(as cache for fast requests)
+- Sequelize, MySQL, Redis(as cache for fast requests)
 ```
 Example
 ![LinkToShrink](https://github.com/Javez/LinkToShrink/assets/66317972/cf2b854d-c713-47f6-a953-daa3eda06fff)
